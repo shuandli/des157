@@ -1,0 +1,61 @@
+body {
+	background: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
+h2 {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+}
+
+#exercises {
+	margin-left: 10%;
+}
+
+#studios {
+	margin-left: 40%;
+	margin-top: -9.5%;
+}
+
+#projects {
+	margin-left: 70%;
+	margin-top: -13%;
+}
+	
+a:link {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+}
+
+a:hover {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
+p {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin-left: 10%;
+}
+
+footer {
+	text-align: center;
+}
+	

@@ -1,0 +1,41 @@
+body {
+	background: #000000;
+}
+
+h3 {
+	margin-left:10%;
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
+p {
+	width: 500px;
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin-left: 10%;
+}
+
+#blog1 {
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+footer {
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+a:link {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+}

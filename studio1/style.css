@@ -1,5 +1,10 @@
 body {
 	background: #000000;
+	margin: auto;
+}
+
+header {
+	margin-left: 15%;
 }
 
 h1 {
@@ -15,6 +20,13 @@ h2 {
 	color: #FFFF00;
 }
 
+h3 {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+	margin-left: 15%;
+}
+
 #exercises {
 	margin-left: 10%;
 }
@@ -26,9 +38,9 @@ h2 {
 
 #projects {
 	margin-left: 70%;
-	margin-top: -13%;
+	margin-top: -14.5%;
 }
-	
+
 a:link {
 	font-family: avenir;
 	font-weight: lighter;
@@ -58,4 +70,3 @@ p {
 footer {
 	text-align: center;
 }
-	

@@ -3,7 +3,7 @@ body {
 }
 
 h3 {
-	margin-left:50%;
+	margin-left:25%;
 	font-family: avenir;
 	font-weight: lighter;
 	color: #66FFFF;
@@ -14,18 +14,18 @@ p {
 	font-family: avenir;
 	font-weight: lighter;
 	color: #FFFFFF;
-	margin-left: 50%;
+	margin-left: 25%;
 }
 
 #blog1 img{
-	margin-left: 50%;
+	margin-left: 25%;
 	margin-top: 1%;
 	width:40%;
 	height:40%;
 }
 
 footer {
-	margin-left: 50%;
+	margin-left: 25%;
 	margin-top: 2%;
 }
 

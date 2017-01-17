@@ -17,9 +17,11 @@ p {
 	margin-left: 10%;
 }
 
-#blog1 {
+#blog1 img{
 	margin-left: 10%;
 	margin-top: 1%;
+	width:40%;
+	height:40%;
 }
 
 footer {
@@ -32,6 +34,12 @@ a:link {
 	font-weight: lighter;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+a:hover {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
 }
 
 a:visited {

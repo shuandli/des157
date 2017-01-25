@@ -9,7 +9,22 @@ h1 {
 	color: #66FFFF;
 }
 
+h3 {
+	margin-left:15%;
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
 #ideas {
+	width: 500px;
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin-left: 25%;
+}
+
+section {
 	width: 500px;
 	font-family: avenir;
 	font-weight: lighter;

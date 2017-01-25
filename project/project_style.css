@@ -10,7 +10,7 @@ h1 {
 }
 
 h3 {
-	margin-left:15%;
+	margin-left:5%;
 	font-family: avenir;
 	font-weight: lighter;
 	color: #66FFFF;
@@ -29,11 +29,11 @@ section {
 	font-family: avenir;
 	font-weight: lighter;
 	color: #FFFFFF;
-	margin-left: 25%;
+	margin-left: 15%;
 }
 
 footer {
-	margin-left: 27%;
+	margin-left: 15%;
 	margin-top: 2%;
 }
 

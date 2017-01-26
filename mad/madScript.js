@@ -7,11 +7,11 @@ document.forms.onreset=clearForm;
 function processForm() {
   console.log('processing form');
   //store variables
-  var userName=document.forms.userName.value;
+  var userName=document.getElementById('userName').value;
 
-  var userName=document.forms.userVerb.value;
+  var userName=document.getElementById('verb').value;
 
-  var userName=document.forms.userText.value;
+  var userName=document.getElementById('adj').value;
 
 if (userNoun=="") {
   alert("type your name");
@@ -25,6 +25,7 @@ return false;
 function clearForm() {
   myMsg.innerHTML='';
 }
+
 // (male name) is a normal guy working as a (job title). Meanwhile, overlord Trump is trying to make World War II a cover up for (noun) that mysteriously landed in (country) in 21 BC. Meanwhile still, Obimorphus Prime, the being of last of his race, is in search of the mysterious McGuffin that Trump is trying to cover up. Because there is too much exposition right now, (number) explosions appear out of nowhere in the White House, seemingly killing Trump while Linkin Park plays in the background.
 //
 // In a twist, Trump survives as he turns out to be a survivor of the aforementioned alien race and sets out to destroy Obimorphus Prime for no reason other than plot. Trump’s first move is to bomb (country) to draw out Prime. (number) of explosions occur and Prime challenges Trump, resulting in (number) more explosions in a fight that lasts (number) minutes. Meanwhile, normal guy becomes relevant to the plot when he stumbles across the fight between Trump and Obimorphus Prime. He saves Prime’s life when he ties him to a (vehicle) and escapes from Trump with Linkin Park playing in the background.

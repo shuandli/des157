@@ -1,0 +1,63 @@
+body {
+	background: #000000;
+	margin: auto;
+}
+
+header {
+	margin-left: 15%;
+}
+
+h1 {
+	width: 400px;
+	float: left;
+	padding-top: 10%;
+	padding-left: 18%;
+	font-family: avenir;
+	font-weight: lighter;
+	font-size: %250;
+	color: #66FFFF;
+}
+
+article {
+	padding-top: 12%;
+	padding-left: 35%;
+	font-family: avenir;
+	color: #ffffff;
+}
+
+#screenshot img{
+	width:28%;
+	height:28%;
+	padding-left:18%;
+}
+
+a:link {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+}
+
+a:hover {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
+p {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin-left: 10%;
+}
+
+footer {
+	text-align: center;
+	padding-top:10%;
+}

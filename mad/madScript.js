@@ -1,30 +1,65 @@
-console.log ('reading');
-//capture submit
-document.forms.onsubmit=processForm;
-document.forms.onreset=clearForm;
+console.log('reading madScript');
 
-//create function
-function processForm() {
-  console.log('processing form');
-  //store variables
-  var userName=document.getElementById('userName').value;
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+    //capture submit
+    document.forms.onsubmit = processForm;
+    document.forms.onreset = clearForm;
 
-  var userName=document.getElementById('verb').value;
+    //create function
+    function processForm() {
+        console.log('processing form');
+        //store variables
 
-  var userName=document.getElementById('adj').value;
+        //var userName=document.forms.userName.value;
 
-if (userNoun=="") {
-  alert("type your name");
-}
+        var userName = document.forms.userName.value;
+        //var userName = document.getElementById('verb').value;
+        //var userName = document.getElementById('adj').value;
 
-myMsg.innerHTML= 'Hi,' + userName + userVerb + userText;
+        if (userName == "") {
+            alert("type your name");
+        }
 
-return false;
-}
+        // alert('Hi,' + userName);
+        myMsg.innerHTML = userName + is a normal guy working as a + userJob.
+        Meanwhile, overlord Trump is trying to make World War II a cover up for
+        + userNoun + that mysteriously landed in + useCountry in 21 BC. Meanwhile
+        still, Obimorphus Prime, the being of last of his race, is in search of
+        the mysterious McGuffin that Trump is trying to cover up. Because there
+        is too much exposition right now, + userNumber1 explosions appear out of
+        nowhere in the White House, seemingly killing Trump while Linkin Park
+        plays in the background.
 
-function clearForm() {
-  myMsg.innerHTML='';
-}
+        In a twist, Trump survives as he turns out to be a survivor of the
+        aforementioned alien race and sets out to destroy Obimorphus Prime for
+        no reason other than plot. Trump’s first move is to bomb + userCountry
+        to draw out Prime. + userNumber2 + of explosions occur and Prime challenges
+        Trump, resulting in + userNumber3 + more explosions in a fight that lasts
+        + userNumber4 minutes. Meanwhile, normal guy becomes relevant to the plot
+        when he stumbles across the fight between Trump and Obimorphus Prime.
+        He saves Prime’s life when he ties him to a + userVehicle and escapes
+        from Trump with Linkin Park playing in the background.
+
+        Normal guy and Prime team up and journey to + userCountry2 to find the
+        McGuffin that turns out to be a + userNoun2 +. Trump appears, not having
+        any of it, and engages Prime in combat for possession of the Mcguffin.
+        Also, in another plot twist, more aliens show up to help Prime in order
+        to provide + userNumber5 + more explosions for the fight scene. Prime is able to gain the upper hand as Normal guy’s girlfriend, (female name), who was with Normal guy in his adventure the whole time, appears in front of Trump, which distracts him. Obimorphus Prime tears off Trump’s (body part) in slow motion, killing him. Normal guy uses the McGuffin to provide free health care for the US in super slow motion, and Linking Park plays in the credits.
+        //
+        // After the credits, (actor name) appears to Normal guy, trying to recruit him for the Avengers.
+        //
+
+        myMsg.innerHTML = 'Hi,' + userName;
+
+        return false;
+    }
+
+    function clearForm() {
+        myMsg.innerHTML = '';
+    }
+
+});
 
 // (male name) is a normal guy working as a (job title). Meanwhile, overlord Trump is trying to make World War II a cover up for (noun) that mysteriously landed in (country) in 21 BC. Meanwhile still, Obimorphus Prime, the being of last of his race, is in search of the mysterious McGuffin that Trump is trying to cover up. Because there is too much exposition right now, (number) explosions appear out of nowhere in the White House, seemingly killing Trump while Linkin Park plays in the background.
 //

@@ -7,13 +7,14 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21/p5.js">
 		</script>
 	<link rel="stylesheet" href="mad_style.css">
+	<script src= "madScript.js"></script>
 </head>
 
 <body>
 	<h1>For a whacky experience, type in the words</h1>
 
 <article>
-		<form name="f">
+		<form name="forms">
 			<div>
 				<label>Name</label>
 				<input type="text" name="userName">
@@ -28,15 +29,10 @@
 				<label>Adjective</label>
 				<input type="text" name="userText">
 			</div>
-
-			<div>
-			  <label>Verb</label>
-			  <input type="text" name="userVerb">
-			</div>
-
 			  <input type="reset" value="reset"/>
 			  <input type="submit" value="submit"/>
 		</form>
+	<p id="myMsg"></p>
 </article>
 
 <section id="screenshot">
@@ -46,8 +42,6 @@
 	<footer>
 		<a href="../index.html">Return to portal</a>
 	</footer>
-
-<script src= "madScript.js"></script>
 
 </body>
 </html>

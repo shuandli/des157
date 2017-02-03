@@ -1,0 +1,34 @@
+/* add reset */
+
+body {
+  width: 100%;
+}
+
+#person {
+  position: relative;
+  background-color: red;
+  width: 500px;
+  margin: auto;
+}
+
+#person img {
+  position: absolute;
+}
+
+#character {
+  margin: auto;
+}
+
+#book {
+  top: 200px;
+  left: 100px;
+  display: block;
+  opacity: .25;
+}
+
+footer {
+  position: relative;
+  margin: auto;
+  font-family: avenir;
+  color: #747D8E;
+}

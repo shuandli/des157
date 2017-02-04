@@ -19,16 +19,30 @@ body {
   margin: auto;
 }
 
-#book {
-  top: 200px;
-  left: 100px;
+#hat {
+  width: 120px;
+  left: 198px;
   display: block;
-  opacity: .25;
+  opacity: 0.5;
+}
+
+#glasses {
+  top: 58px;
+  left: 300px;
+  display: block;
+  opacity: 0;
+}
+
+#book {
+  top: 212px;
+  left: 118px;
+  display: block;
+  opacity: 0;
 }
 
 footer {
   position: relative;
   margin: auto;
-  font-family: avenir;
   color: #747D8E;
+  font-family: avenir;
 }

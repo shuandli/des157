@@ -4,9 +4,16 @@ body {
   width: 100%;
 }
 
+header {
+  position: absolute;
+  font-family: avenir;
+  font-weight: lighter;
+  top: 10px;
+  left: 120px;
+}
+
 #person {
   position: relative;
-  background-color: red;
   width: 500px;
   margin: auto;
 }
@@ -20,28 +27,102 @@ body {
 }
 
 #hat {
-  width: 120px;
+  width: 118px;
   left: 198px;
-  display: block;
-  opacity: 0.5;
-}
-
-#glasses {
-  top: 58px;
-  left: 300px;
   display: block;
   opacity: 0;
 }
 
+#hatInfo {
+  position: absolute;
+  width: 250px;
+  top: 25px;
+  left: -60px;
+  opacity: 0;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 70%;
+}
+
+#glasses {
+  width: 100px;
+  top: 64px;
+  left: 207px;
+  display: block;
+  opacity: 0;
+}
+
+#glassesInfo {
+  position: absolute;
+  width: 250px;
+  top: 100px;
+  left: 400px;
+  opacity: 0;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 70%;
+}
+
+#saber {
+  width: 120px;
+  top: 256px;
+  left: -10px;
+  display: block;
+  opacity: 0;
+}
+
+#saberInfo {
+  position: absolute;
+  width: 250px;
+  top: 205px;
+  right: 480px;
+  opacity: 0;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 70%;
+}
+
+#watch {
+  width: 50px;
+  top: 272px;
+  right: 360px;
+  display: block;
+  opacity: 0;
+}
+
+#watchInfo {
+  position: absolute;
+  width: 250px;
+  top: 345px;
+  right: 300px;
+  opacity: 0;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 70%;
+}
+
 #book {
-  top: 212px;
+  top: 230px;
   left: 118px;
   display: block;
   opacity: 0;
 }
 
-footer {
-  position: relative;
+#bookInfo {
+  position: absolute;
+  width: 250px;
+  top: 280px;
+  right: -120px;
+  opacity: 0;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 70%;
+}
+
+#footer {
+  position: absolute;
+  float: bottom;
+  bottom: 0;
   margin: auto;
   color: #747D8E;
   font-family: avenir;

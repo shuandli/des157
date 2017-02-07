@@ -120,6 +120,7 @@ header {
 }
 
 footer {
+  padding-top: 700px; 
   float: bottom;
   bottom: 0;
   margin: auto;

@@ -8,14 +8,14 @@ header {
   position: absolute;
   font-family: avenir;
   font-weight: lighter;
-  top: 10px;
   left: 200px;
 }
 
 #person {
   position: relative;
+  align-items: center;
   width: 500px;
-  margin: auto;
+  height: 750px;
 }
 
 #person img {
@@ -121,5 +121,5 @@ header {
 
 footer {
   font-family: avenir;
-  padding-top: 800px;
+  text-align: center;
 }

@@ -13,6 +13,7 @@ p {
   font-family: avenir;
   font-weight: lighter;
   color: white;
+  width: 700px;
 }
 
 a:link {

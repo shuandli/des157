@@ -7,7 +7,7 @@ header {
   font-family: avenir;
   font-weight: lighter;
   color: white;
-  left:200px;
+  margin-left:200px;
 }
 p {
   left: 250px;
@@ -15,7 +15,7 @@ p {
   font-weight: lighter;
   color: white;
   width: 700px;
-  left:220px;
+  margin-left:220px;
 }
 
 a:link {

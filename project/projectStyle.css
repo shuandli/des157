@@ -1,0 +1,40 @@
+body {
+  background: black;
+}
+
+header {
+  left: 250px;
+  font-family: avenir;
+  font-weight: lighter;
+  color: white;
+}
+p {
+  left: 250px;
+  font-family: avenir;
+  font-weight: lighter;
+  color: white;
+}
+
+a:link {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #FFFF00;
+}
+
+a:hover {
+	font-family: avenir;
+	font-weight: lighter;
+	color: #66FFFF;
+}
+
+footer {
+	padding-top: 21%;
+	text-align: center;
+}

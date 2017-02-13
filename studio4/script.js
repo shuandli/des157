@@ -29,7 +29,7 @@ elementary.addEventListener('mouseover', function(){
   tipTimer=setTimeout(showelementarySelect,500);
 
   function showelementarySelect(){
-    console.log('show img');
+    console.log('show msg');
     elementarySelect.style.opacity=1;
     elementarySelect.style.transition='all .5s';
   };
@@ -47,7 +47,7 @@ middle.addEventListener('mouseover', function(){
   tipTimer=setTimeout(showmiddleSelect,500);
 
   function showmiddleSelect(){
-    console.log('show img');
+    console.log('show msg');
     middleSelect.style.opacity=1;
     middleSelect.style.transition='all .5s';
   };
@@ -64,7 +64,7 @@ high.addEventListener('mouseover', function(){
   tipTimer=setTimeout(showhighSelect,500);
 
   function showhighSelect(){
-    console.log('show img');
+    console.log('show msg');
     highSelect.style.opacity=1;
     highSelect.style.transition='all .5s';
   };
@@ -81,7 +81,7 @@ college.addEventListener('mouseover', function(){
   tipTimer=setTimeout(showcollegeSelect,500);
 
   function showcollegeSelect(){
-    console.log('show img');
+    console.log('show msg');
     collegeSelect.style.opacity=1;
     collegeSelect.style.transition='all .5s';
   };

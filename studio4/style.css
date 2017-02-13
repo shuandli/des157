@@ -11,11 +11,15 @@ h1 {
 }
 
 #elementary {
-padding: 10px;
+padding-top: 10px;
 }
 
 #middle {
-  padding: 225px;
+  padding-top: 225px;
+}
+
+#high {
+  padding-top: 225px;
 }
 
 #college {

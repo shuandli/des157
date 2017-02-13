@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family: avenir;
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+#elementary {
+padding: 10px;
+}
+
+#middle {
+  padding: 225px;
+}
+
+#college {
+  padding: 225px;
+}
+
+img {
+  position: relative;
+  margin: auto;
+}
+
+.select1 {
+  opacity: 0;
+}
+
+.select2 {
+  opacity: 0;
+}
+
+.select3 {
+  opacity: 0;
+}
+
+.select4 {
+  opacity: 0;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+#start {
+    background-color: green;
+}
+#stop {
+    background-color: red;
+}
+
+div {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+}

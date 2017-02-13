@@ -61,3 +61,8 @@ div {
   width: 15px;
   background-color: white;
 }
+
+footer {
+  text-align: center;
+  padding: 50px;
+}

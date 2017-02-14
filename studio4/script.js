@@ -7,6 +7,7 @@ var start = document.getElementById('start');
 var stop = document.getElementById('stop');
 var pixel = document.getElementById('pixel');
 var pixelInterval;
+
 //elementary
 var elementary=document.getElementById('elementary');
 var elementarySelect=document.getElementById('elementarySelect');

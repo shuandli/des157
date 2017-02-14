@@ -10,24 +10,39 @@ h1 {
   font-weight: lighter;
 }
 
-li {
-  list-style-type: none;
+h2 {
+  font-weight: lighter;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 #elementary {
-padding-top: 10px;
+  top: 25px;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 #middle {
-  padding-top: 125px;
+  top: 300px;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 #high {
-  padding-top: 125px;
+  top: 575px;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 #college {
-  padding: 125px;
+  top: 850px;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 img {
@@ -35,30 +50,34 @@ img {
   margin: auto;
 }
 
-.select1 {
+#elementarySelect {
   opacity: 0;
-  width: 100%;
+  width: 500px;
+  height: 200px;
   position: relative;
   margin: auto;
 }
 
-.select2 {
+#middleSelect {
   opacity: 0;
-  width: 100%;
+  width: 500px;
+  height: 200px;
   position: relative;
   margin: auto;
 }
 
-.select3 {
+#highSelect {
   opacity: 0;
-  width: 100%;
+  width: 500px;
+  height: 200px;
   position: relative;
   margin: auto;
 }
 
-.select4 {
+#collegeSelect {
   opacity: 0;
-  width: 100%;
+  width: 500px;
+  height: 200px;
   position: relative;
   margin: auto;
 }
@@ -66,6 +85,9 @@ img {
 button {
   width: 50px;
   height: 50px;
+  top: 1125px;
+  position: relative;
+  margin: auto;
 }
 
 #start {
@@ -80,9 +102,12 @@ div {
   height: 15px;
   width: 15px;
   background-color: white;
+  top: 1250px;
 }
 
 footer {
+  position: relative;
+  top: 1200px;
+  padding-bottom: 20px;
   text-align: center;
-  padding: 50px;
 }

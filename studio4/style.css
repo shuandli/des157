@@ -29,18 +29,30 @@ img {
 
 .select1 {
   opacity: 0;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 .select2 {
   opacity: 0;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 .select3 {
   opacity: 0;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 .select4 {
   opacity: 0;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 button {

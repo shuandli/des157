@@ -36,7 +36,7 @@ elementary.addEventListener('mouseover', function(){
 });
 
 elementary.addEventListener('mouseout', function(){
-  console.log('mouseout on elementary school');
+  console.log('mouseout on middle school');
   clearTimeout(tipTimer);
   elementarySelect.style.opacity=0;
 });
@@ -53,7 +53,7 @@ middle.addEventListener('mouseover', function(){
   };
 });
 middle.addEventListener('mouseout', function(){
-  console.log('mouseout on middle school');
+  console.log('mouseout on high school');
   clearTimeout(tipTimer);
   middleSelect.style.opacity=0;
 });
@@ -70,7 +70,7 @@ high.addEventListener('mouseover', function(){
   };
 });
 high.addEventListener('mouseout', function(){
-  console.log('mouseout on high school');
+  console.log('mouseout on college');
   clearTimeout(tipTimer);
   highSelect.style.opacity=0;
 });

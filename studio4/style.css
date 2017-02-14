@@ -10,6 +10,10 @@ h1 {
   font-weight: lighter;
 }
 
+li {
+  list-style-type: none;
+}
+
 #elementary {
 padding-top: 10px;
 }

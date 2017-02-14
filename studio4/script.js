@@ -25,7 +25,7 @@ var tipTimer;
 //timer events
 //elementary
 elementary.addEventListener('mouseover', function(){
-  console.log('mouseover on elementary');
+  console.log('mouseover on elementary school');
   tipTimer=setTimeout(showelementarySelect,500);
 
   function showelementarySelect(){
@@ -36,14 +36,14 @@ elementary.addEventListener('mouseover', function(){
 });
 
 elementary.addEventListener('mouseout', function(){
-  console.log('mouseout on elementary');
+  console.log('mouseout on elementary school');
   clearTimeout(tipTimer);
   elementarySelect.style.opacity=0;
 });
 
 //middle
 middle.addEventListener('mouseover', function(){
-  console.log('mouseover on middle');
+  console.log('mouseover on middle school');
   tipTimer=setTimeout(showmiddleSelect,500);
 
   function showmiddleSelect(){
@@ -53,14 +53,14 @@ middle.addEventListener('mouseover', function(){
   };
 });
 middle.addEventListener('mouseout', function(){
-  console.log('mouseout on middle');
+  console.log('mouseout on middle school');
   clearTimeout(tipTimer);
   middleSelect.style.opacity=0;
 });
 
 //high
 high.addEventListener('mouseover', function(){
-  console.log('mouseover on middle');
+  console.log('mouseover on middle school');
   tipTimer=setTimeout(showhighSelect,500);
 
   function showhighSelect(){
@@ -70,7 +70,7 @@ high.addEventListener('mouseover', function(){
   };
 });
 high.addEventListener('mouseout', function(){
-  console.log('mouseout on high');
+  console.log('mouseout on high school');
   clearTimeout(tipTimer);
   highSelect.style.opacity=0;
 });
@@ -101,19 +101,14 @@ stop.addEventListener ('click', function(){
  clearInterval(pixelInterval);
 });
 
-
 function moveDiv(){
 
-  // get the innerWidth and innerHeight of window
-  // body has overflow:hidden so that scroll bars
-  // don't appear if pixel gets close to the edge
   var w = window.innerWidth;
   var h = window.innerHeight;
-  //console.log ('w: ' + w + ', h: ' + h);
 
+  //random movement
   var newLeft = (Math.floor(Math.random() * w)) + 'px';
   var newTop = (Math.floor(Math.random() * h)) + 'px';
-  //console.log ('newLeft: ' + newLeft);
 
   pixel.style.left = newLeft;
   pixel.style.top = newTop;

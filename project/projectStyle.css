@@ -9,6 +9,7 @@ header {
   color: white;
   margin-left:200px;
 }
+
 p {
   left: 250px;
   font-family: avenir;
@@ -16,6 +17,19 @@ p {
   color: white;
   width: 700px;
   margin-left:220px;
+}
+
+nav {
+  left: 250px;
+  font-family: avenir;
+  font-weight: lighter;
+  color: white;
+  width: 700px;
+  margin-left:220px;
+}
+
+li {
+  list-style-type: none;
 }
 
 a:link {
@@ -39,5 +53,4 @@ a:hover {
 
 footer {
 	padding-top: 21%;
-	text-align: center;
 }

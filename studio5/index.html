@@ -3,33 +3,55 @@
   <head>
   <meta charset="UTF-8">
     <title>animation test</title>
-  <style>
-  div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 4s;
-}
+    <link rel="stylesheet" href="animate.css">
+  <style type="text/css">
+    body {
+      width: 100%;
+      align-items: center;
+    }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
+    .catBounce img {
+      position: relative;;
+      top: 100px;
+      width: 300px;
+      height: 300px;
+    }
 
-/* Standard syntax */
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
+    .catSwing img {
+      position: relative;
+      left: 400px;
+      width: 300px;
+      height: 300px;
+    }
+
+    .catShake img {
+      position: relative;
+      left: 800px;
+      width: 300px;
+      height: 300px;
+    }
   </style>
   </head>
 
 <body>
   <p>testing testing testing</p>
-  <div></div>
+
+  <div class="catBounce animated bounceInDown">
+    <img src="images/catBounce.png" alt=cartoon cat>
+  </div>
+
+  <div class="catSwing animated swing">
+    <img src="images/catSwing.png" alt=cartoon cat>
+  </div>
+
+  <div class="catShake animated shake">
+    <img src="images/catShake.png" alt=cartoon cat>
+  </div>
+
+  <footer>
+  		<a href="../index.html">Return to portal |</a>
+  		<a href="https://validator.w3.org/check?uri=referer">Valid HTML 5 |</a>
+  		<a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
 </body>
 </html>

@@ -4,16 +4,14 @@ console.log("reading");
 
 //variables
 var bounce=document.getElementById('bounce');
-var bounceHover=document.getElementById('bounceHover');
+var bounceText=document.getElementById('bounceText');
 
 bounce.addEventListener('mouseover', function(){
   console.log('mouseover on bounce');
-  
 
-  function showbounceHover(){
+  function bounceText(){
     console.log('show text');
     bounceHover.style.opacity=1;
-    bounceHover.style.transition='all .5s';
   };
 });
 

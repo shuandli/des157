@@ -32,7 +32,11 @@ li {
   list-style-type: none;
 }
 
-img {
+#observe {
+  left: 250px;
+}
+
+#board {
   left: 250px;
 }
 

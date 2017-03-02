@@ -32,11 +32,15 @@ li {
   list-style-type: none;
 }
 
-#observe {
+#observe img {
   left: 250px;
 }
 
-#board {
+#storyboard1 img {
+  left: 250px;
+}
+
+#storyboard2 img {
   left: 250px;
 }
 
@@ -61,4 +65,5 @@ a:hover {
 
 footer {
 	padding-top: 21%;
+  text-align: center;
 }

@@ -10,6 +10,10 @@ header {
   margin-left:200px;
 }
 
+section {
+  left: 250px;
+}
+
 p {
   left: 250px;
   font-family: avenir;
@@ -30,18 +34,6 @@ nav {
 
 li {
   list-style-type: none;
-}
-
-#observe img {
-  left: 250px;
-}
-
-#storyboard1 img {
-  left: 250px;
-}
-
-#storyboard2 img {
-  left: 250px;
 }
 
 a:link {

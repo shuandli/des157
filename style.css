@@ -26,7 +26,7 @@ h3 {
   font-family: avenir;
   font-weight: lighter;
   color: #FFFF00;
-  margin-left: 15%;
+  left: 15%;
 }
 
 section {
@@ -76,7 +76,7 @@ p {
   font-family: avenir;
   font-weight: lighter;
   color: #FFFFFF;
-  margin-left: 10%;
+  left: 10%;
 }
 
 footer {

@@ -1,11 +1,12 @@
 body {
   background: #000000;
+  position: relative;
   margin: auto;
 }
 
 header {
   display: block;
-  width: 800px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -26,7 +27,7 @@ h3 {
   font-family: avenir;
   font-weight: lighter;
   color: #FFFF00;
-  left: 15%;
+  left: 200px;
 }
 
 section {

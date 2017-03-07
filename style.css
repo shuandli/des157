@@ -1,85 +1,84 @@
 body {
-	background: #000000;
-	margin: auto;
+  background: #000000;
+  margin: auto;
 }
 
 header {
-	display: block;
-	width:800px;
-	margin: auto;
+  display: block;
+  width: 800px;
+  margin: auto;
 }
 
 h1 {
-	text-align: center;
-	font-family: avenir;
-	font-weight: lighter;
-	color: #66FFFF;
+  text-align: center;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #66FFFF;
 }
 
 h2 {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #FFFF00;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #FFFF00;
 }
 
 h3 {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #FFFF00;
-	margin-left: 15%;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #FFFF00;
+  margin-left: 15%;
 }
 
 section {
-	min-width: 1000px;
-	margin: auto;
-	width: 100%;
+  min-width: 1000px;
+  margin: auto;
+  width: 100%;
 }
 
 #exercises {
-	float: left;
-	padding-top: 2%;
-	padding-left: 15%;
+  float: left;
+  padding-top: 2%;
+  padding-left: 15%;
 }
 
 #studios {
-	float: left;
-	padding-top: 2%;
-	padding-left: 15%;
+  float: left;
+  padding-top: 2%;
+  padding-left: 15%;
 }
 
 #projects {
-	float: left;
-	padding-top: 1.5%;
-	padding-left: 15%;
+  float: left;
+  padding-top: 1.5%;
+  padding-left: 15%;
 }
 
 a:link {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #FFFFFF;
-	text-decoration: none;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 a:visited {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #FFFF00;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #FFFF00;
 }
 
 a:hover {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #66FFFF;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #66FFFF;
 }
 
 p {
-	font-family: avenir;
-	font-weight: lighter;
-	color: #FFFFFF;
-	margin-left: 10%;
+  font-family: avenir;
+  font-weight: lighter;
+  color: #FFFFFF;
+  margin-left: 10%;
 }
 
 footer {
-	padding-top: 21%;
-	text-align: center;
+  text-align: center;
 }

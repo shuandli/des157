@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  align-items: center;
+  font-family: avenir;
+}
+
+#room2 {
+  position: absolute;
+  left: 400px;
+  top: 2px;
+}
+
+#room3 {
+  position: absolute;
+  left: 580px;
+  top: 10px;
+}
+
+#room4 {
+  position: absolute;
+  top: 220px;
+}
+
+#room5 {
+  position: absolute;
+  left: 590px;
+  top: 230px;
+}
+
+#cups {
+  position: absolute;
+  left: 270px;
+  top: 300px;
+}
+
+#sink {
+  position: absolute;
+  left: 215px;
+  top: 435px;
+}
+
+#fan {
+  position: absolute;
+  left: 650px;
+  top: 400px;
+}
+
+#lamp {
+  position: absolute;
+  left: 200px;
+  top: 180px;
+}
+
+#fan2 {
+  position: absolute;
+  left: 702px;
+  top: 670px;
+}
+
+#shower {
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}

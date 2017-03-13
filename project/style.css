@@ -1,3 +1,20 @@
+body {
+  width: 100%;
+}
+
+#room {
+  position: relative;
+  margin: auto;
+}
+
+#room img {
+  position: absolute;
+}
+
+#bath {
+  margin: auto;
+}
+
 #menu {
   opacity: .25;
   font-family: avenir;
@@ -12,10 +29,8 @@
 }
 
 #shower {
-  position: absolute;
   left: 405px;
   top: 75px;
-  display: block;
   opacity: .5;
 }
 
@@ -33,10 +48,8 @@
 }
 
 #wash {
-  position: absolute;
   left: 510px;
   top: 335px;
-  display: block;
   opacity: .25;
 }
 
@@ -54,10 +67,8 @@
 }
 
 #toilet {
-  position: absolute;
   left: 960px;
   top: 435px;
-  display: block;
   opacity: .5;
 }
 

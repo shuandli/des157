@@ -1,4 +1,3 @@
-
 body {
   align-items: center;
   font-family: avenir;
@@ -22,14 +21,12 @@ body {
 }
 
 #four {
-  position: absolute;
   left: 490px;
-  top: 150px;
+  top: 200px;
 }
 
 #five {
-  position: absolute;
-  top: 150px;
+  top: 200px;
 }
 
 footer {

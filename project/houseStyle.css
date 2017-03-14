@@ -1,0 +1,40 @@
+
+body {
+  align-items: center;
+  font-family: avenir;
+}
+
+#one {
+  position: absolute;
+  bottom: 150px;
+}
+
+#two {
+  position: absolute;
+  left: 275px;
+  bottom: 150px;
+}
+
+#three {
+  position: absolute;
+  left: 520px;
+  bottom: 100px;
+}
+
+#four {
+  position: absolute;
+  left: 490px;
+  top: 150px;
+}
+
+#five {
+  position: absolute;
+  top: 150px;
+}
+
+footer {
+  position: relative;
+  margin: auto;
+  top: 700px;
+  left: 200px;
+}

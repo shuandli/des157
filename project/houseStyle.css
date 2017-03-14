@@ -21,11 +21,13 @@ body {
 }
 
 #four {
+  position: absolute;
   left: 490px;
   top: 200px;
 }
 
 #five {
+  position: absolute;
   top: 200px;
 }
 

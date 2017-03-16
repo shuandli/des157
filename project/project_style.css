@@ -8,18 +8,22 @@ h1 {
   color: #66FFFF;
 }
 
-h3 {
+h2 {
   font-family: avenir;
   font-weight: lighter;
   color: #66FFFF;
 }
 
 section {
-  width: 500px;
+  width: 700px;
   font-family: avenir;
   font-weight: lighter;
   color: #FFFFFF;
   margin-left: 15%;
+}
+
+section img {
+  padding-top: 10px;
 }
 
 footer {

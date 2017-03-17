@@ -1,0 +1,24 @@
+body {
+  background: black;
+  align-items: center;
+  font-family: avenir;
+}
+
+#rack {
+  position: absolute;
+  bottom: 500px;
+  opacity: .5;
+}
+
+#rackInfo {
+  opacity: 0;
+  position: absolute;
+  left: 520px;
+  bottom: 630px;
+  width: 600px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}

@@ -1,16 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("reading");
 
-//index variables
+//variables
+
+//index
 var kitchenButton = document.getElementById('kitchenButton');
 
+//bathroom
+var shower = document.getElementById('shower');
+var wash = document.getElementById('wash');
+var toilet = document.getElementById('toilet');
+
 //closing variables
-// var showerClose = document.getElementById('showerClose');
-// var washClose = document.getElementById('washClose');
-// var toiletClose = document.getElementById('toiletClose');
+
+//bathroom
+var showerClose = document.getElementById('showerClose');
+var washClose = document.getElementById('washClose');
+var toiletClose = document.getElementById('toiletClose');
 
 //navigation variables
-// var menu = document.getElementById('menu');
+var menu = document.getElementById('menu');
 
 //events
 //kitchenButton event
@@ -68,24 +77,25 @@ bedButton.addEventListener('mouseout', function() {
   bedButton.src = 'images/bedButton.png';
 });
 
+//bathoom event
+// shower hover event listener
+shower.addEventListener('mouseover', function() {
+    shower.style.opacity = 1;
+    shower.src = 'images/theShower.png';
 });
 
-//events
-//shower hover event listener
-// shower.addEventListener('mouseover', function() {
-//     shower.style.opacity = 1;
-//     shower.src = 'images/theShower.png';
-// });
-// //shower mouseout event listener
-// showerInfo.addEventListener('mouseout', function() {
-//     shower.style.opacity = .5;
-//     shower.src = 'images/theShower.png';
-// });
-// //shower click
-// shower.addEventListener('click', function() {
-//     showerInfo.style.opacity = 1;
-// });
-// //close info
-// showerClose.addEventListener('click', function() {
-//     showerInfo.style.opacity = 0;
-// });
+showerInfo.addEventListener('mouseout', function() {
+    shower.style.opacity = .5;
+    shower.src = 'images/theShower.png';
+});
+
+//shower click
+shower.addEventListener('click', function() {
+    showerInfo.style.opacity = 1;
+});
+
+showerClose.addEventListener('click', function() {
+    showerInfo.style.opacity = 0;
+});
+
+});

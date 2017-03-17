@@ -12,7 +12,6 @@ body {
   left: -5px;
 }
 
-
 ul {
   list-style-type: none;
   text-decoration: none;
@@ -21,7 +20,8 @@ ul {
 
 #rack {
   position: absolute;
-  bottom: 500px;
+  bottom: 665px;
+  left: 210px;
   opacity: .5;
 }
 
@@ -29,8 +29,86 @@ ul {
   opacity: 0;
   position: absolute;
   left: 520px;
-  bottom: 630px;
+  bottom: 680px;
+  width: 300px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#sink {
+  position: absolute;
+  bottom: 375px;
+  opacity: .25;
+}
+
+#sinkInfo {
+  opacity: 0;
+  position: absolute;
+  left: 400px;
+  bottom: 280px;
+  width: 350px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#washer {
+  position: absolute;
+  bottom: 10px;
+  opacity: .5;
+}
+
+#washerInfo {
+  opacity: 0;
+  position: absolute;
+  left: 520px;
+  bottom: 75px;
   width: 600px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#containers {
+  position: absolute;
+  right: 220px;
+  bottom: 800px;
+  opacity: .5;
+}
+
+#containersInfo {
+  opacity: 0;
+  position: absolute;
+  right: 70px;
+  bottom: 560px;
+  width: 280px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#bottles {
+  position: absolute;
+  bottom: 575px;
+  right: 395px;
+  opacity: .5;
+}
+
+#bottlesInfo {
+  opacity: 0;
+  position: absolute;
+  right: 150px;
+  bottom: 250px;
+  width: 300px;
   font-family: avenir;
   font-weight: lighter;
   background-color: white;

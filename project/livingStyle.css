@@ -1,0 +1,79 @@
+body {
+  background: black;
+  align-items: center;
+  font-family: avenir;
+}
+
+#menu {
+  opacity: .25;
+  position: absolute;
+  font-family: avenir;
+  top: 10px;
+  left: -5px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+#fan {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+  opacity: .5;
+}
+
+#fanInfo {
+  opacity: 0;
+  position: absolute;
+  left: 150px;
+  bottom: 640px;
+  width: 500px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#tv {
+  position: absolute;
+  bottom: 5px;
+  right: 180px;
+  opacity: .25;
+}
+
+#tvInfo {
+  opacity: 0;
+  position: absolute;
+  left: 400px;
+  bottom: 400px;
+  width: 350px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#plant {
+  position: absolute;
+  bottom: 310px;
+  right: 65px;
+  opacity: .5;
+}
+
+#plantInfo {
+  opacity: 0;
+  position: absolute;
+  right: 120px;
+  bottom: 675px;
+  width: 400px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}

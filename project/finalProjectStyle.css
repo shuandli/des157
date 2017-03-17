@@ -49,32 +49,6 @@ body {
   left: -5px;
 }
 
-
-/*kitchen*/
-
-#background img {
-  width: 1200px;
-  height: 800px;
-}
-
-#rack {
-  position: absolute;
-  opacity: .5;
-}
-
-#rackInfo {
-  opacity: 0;
-  position: absolute;
-  left: 520px;
-  bottom: 630px;
-  width: 600px;
-  font-family: avenir;
-  font-weight: lighter;
-  background-color: white;
-  padding-left: 10px;
-  font-size: 100%;
-}
-
 /*bathroom*/
 
 #background img {

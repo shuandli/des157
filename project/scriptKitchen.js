@@ -21,7 +21,7 @@ rack.addEventListener('mouseover', function() {
     rack.src = 'images/theRack.png';
 });
 //rack mouseout event listener
-rackInfo.addEventListener('mouseout', function() {
+rack.addEventListener('mouseout', function() {
     rack.style.opacity = .5;
     rack.src = 'images/theRack.png';
 });

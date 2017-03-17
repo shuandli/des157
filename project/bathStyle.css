@@ -4,6 +4,14 @@ body {
   font-family: avenir;
 }
 
+#menu {
+  opacity: .25;
+  position: absolute;
+  font-family: avenir;
+  top: 10px;
+  left: -5px;
+}
+
 /*bathroom*/
 
 #background img {

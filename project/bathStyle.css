@@ -12,6 +12,14 @@ body {
   left: -5px;
 }
 
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+
 /*bathroom*/
 
 #background img {
@@ -77,10 +85,4 @@ body {
   background-color: white;
   padding-left: 10px;
   font-size: 100%;
-}
-
-ul {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
 }

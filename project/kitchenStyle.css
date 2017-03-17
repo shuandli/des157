@@ -12,6 +12,13 @@ body {
   left: -5px;
 }
 
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
 #rack {
   position: absolute;
   bottom: 500px;

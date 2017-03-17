@@ -1,0 +1,50 @@
+body {
+  background: black;
+  align-items: center;
+  font-family: avenir;
+}
+
+/*index buttons*/
+
+#kitchenButton {
+  position: absolute;
+  left: 60px;
+  bottom: 475px;
+  opacity: 0.5;
+}
+
+#bathButton {
+  position: absolute;
+  right: 110px;
+  bottom: 476px;
+  opacity: 0.5;
+}
+
+#livingButton {
+  position: absolute;
+  left: 50px;
+  bottom: 90px;
+  opacity: 0.5;
+}
+
+#diningButton {
+  position: absolute;
+  left: 480px;
+  bottom: 100px;
+  opacity: 0.5;
+}
+
+#bedButton {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  opacity: 0.5;
+}
+
+
+footer {
+  position: relative;
+  margin: auto;
+  top: 700px;
+  left: 200px;
+}

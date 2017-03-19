@@ -1,0 +1,98 @@
+body {
+  background: black;
+  align-items: center;
+  font-family: avenir;
+}
+
+#menu {
+  opacity: .25;
+  position: absolute;
+  font-family: avenir;
+  top: 10px;
+  left: -5px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+#mattress {
+  position: absolute;
+  bottom: 240px;
+  opacity: .5;
+}
+
+#mattressInfo {
+  opacity: 0;
+  position: absolute;
+  left: 140px;
+  bottom: 650px;
+  width: 600px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#heater {
+  position: absolute;
+  bottom: 50px;
+  left: 140px;
+  opacity: .25;
+}
+
+#heaterInfo {
+  opacity: 0;
+  position: absolute;
+  right: 520px;
+  bottom: 20px;
+  width: 400px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+#lamp {
+  position: absolute;
+  bottom: 630px;
+  right: 425px;
+  opacity: .5;
+}
+
+#lampInfo {
+  opacity: 0;
+  position: absolute;
+  right: 250px;
+  bottom: 165px;
+  width: 400px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding: 10px;
+  font-size: 100%;
+}
+
+#window {
+  position: absolute;
+  bottom: 695px;
+  right: 65px;
+  opacity: .5;
+}
+
+#windowInfo {
+  opacity: 0;
+  position: absolute;
+  right: 120px;
+  bottom: 510px;
+  width: 250px;
+  font-family: avenir;
+  font-weight: lighter;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 100%;
+}

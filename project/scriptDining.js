@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.addEventListener('mouseout', function() {
         menu.style.opacity = .25;
     });
-    
+
     //food hover event listener
     food.addEventListener('mouseover', function() {
         food.style.opacity = 1;

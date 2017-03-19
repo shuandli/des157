@@ -13,6 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
     var menu = document.getElementById('menu');
 
     //events
+
+    //menu hover event listener
+    menu.addEventListener('mouseover', function() {
+        menu.style.opacity = 1;
+    });
+    //menu mouseout event listener
+    menu.addEventListener('mouseout', function() {
+        menu.style.opacity = .25;
+    });
+    
     //food hover event listener
     food.addEventListener('mouseover', function() {
         food.style.opacity = 1;
@@ -49,14 +59,5 @@ document.addEventListener('DOMContentLoaded', function() {
     //close info
     chairClose.addEventListener('click', function() {
         tvInfo.style.opacity = 0;
-    });
-
-    //menu hover event listener
-    menu.addEventListener('mouseover', function() {
-        menu.style.opacity = 1;
-    });
-    //menu mouseout event listener
-    menu.addEventListener('mouseout', function() {
-        menu.style.opacity = .25;
     });
 });

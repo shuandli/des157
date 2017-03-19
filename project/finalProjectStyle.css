@@ -52,6 +52,5 @@ body {
 footer {
   position: relative;
   margin: auto;
-  top: 700px;
-  left: 200px;
+  list-style-type: none;
 }

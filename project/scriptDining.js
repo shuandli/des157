@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     //close info
     chairClose.addEventListener('click', function() {
-        chairInfo.style.opacity = 0;
+        tvInfo.style.opacity = 0;
     });
 
     //menu hover event listener

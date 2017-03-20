@@ -2,6 +2,7 @@ body {
   background: black;
   align-items: center;
   font-family: avenir;
+  position: absolute;
 }
 
 #menu {
@@ -41,7 +42,7 @@ ul {
 #tv {
   position: absolute;
   bottom: 5px;
-  right: 180px;
+  right: 120px;
   opacity: .25;
 }
 
@@ -61,14 +62,14 @@ ul {
 #plant {
   position: absolute;
   bottom: 310px;
-  right: 65px;
+  right: 2px;
   opacity: .5;
 }
 
 #plantInfo {
   opacity: 0;
   position: absolute;
-  right: 120px;
+  right: 100px;
   bottom: 675px;
   width: 400px;
   font-family: avenir;

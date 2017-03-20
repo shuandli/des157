@@ -60,7 +60,7 @@ plant.addEventListener('mouseover', function() {
 });
 //plant mouseout event listener
 plantInfo.addEventListener('mouseout', function() {
-    plant.style.opacity = .5;
+    plant.style.opacity = .25;
     plant.src = 'images/thePlant.png';
 });
 //wash click

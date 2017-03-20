@@ -1,4 +1,3 @@
-
 body {
   background: black;
   align-items: center;
@@ -13,10 +12,19 @@ body {
   left: -5px;
 }
 
+
 ul {
   list-style-type: none;
   text-decoration: none;
   color: black;
+}
+
+
+/*bedroom*/
+
+#background img {
+  width: 1200px;
+  height: 800px;
 }
 
 #mattress {
@@ -40,8 +48,8 @@ ul {
 
 #heater {
   position: absolute;
-  bottom: 50px;
   left: 140px;
+  bottom: 50px;
   opacity: .25;
 }
 
@@ -53,44 +61,44 @@ ul {
   width: 400px;
   font-family: avenir;
   font-weight: lighter;
-  background-color: white;
   padding-left: 10px;
+  background-color: white;
   font-size: 100%;
 }
 
 #lamp {
   position: absolute;
-  bottom: 630px;
   right: 425px;
+  bottom: 630px;
   opacity: .5;
 }
 
 #lampInfo {
-  opacity: 0;
   position: absolute;
   right: 250px;
   bottom: 165px;
   width: 400px;
+  opacity: 0;
   font-family: avenir;
   font-weight: lighter;
   background-color: white;
-  padding: 10px;
+  padding-left: 10px;
   font-size: 100%;
 }
 
 #window {
   position: absolute;
-  bottom: 695px;
   right: 65px;
+  bottom: 695px;
   opacity: .5;
 }
 
 #windowInfo {
-  opacity: 0;
   position: absolute;
   right: 120px;
   bottom: 510px;
   width: 250px;
+  opacity: 0;
   font-family: avenir;
   font-weight: lighter;
   background-color: white;

@@ -49,8 +49,27 @@ body {
   left: -5px;
 }
 
+a:link {
+  font-family: avenir;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: avenir;
+  font-weight: lighter;
+  color: white;
+}
+
+a:hover {
+  font-family: avenir;
+  font-weight: lighter;
+  color: #66FFFF;
+}
+
 footer {
   position: relative;
-  margin: auto;
-  list-style-type: none;
+  bottom: 36px;
+  left: 50px;
 }

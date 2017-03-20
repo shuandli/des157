@@ -2,6 +2,7 @@ body {
   background: black;
   align-items: center;
   font-family: avenir;
+  position: absolute;
 }
 
 /*index buttons*/
@@ -14,30 +15,30 @@ body {
 }
 
 #bathButton {
-  position: relative;
+  position: absolute;
   left: 817px;
-  bottom: 750px;
+  bottom: 480px;
   opacity: 0.5;
 }
 
 #livingButton {
   position: absolute;
   left: 50px;
-  bottom: 370px;
+  bottom: 93px;
   opacity: 0.5;
 }
 
 #diningButton {
   position: absolute;
   left: 480px;
-  bottom: 375px;
+  bottom: 95px;
   opacity: 0.5;
 }
 
 #bedButton {
-  position: relative;
+  position: absolute;
   left: 828px;
-  bottom: 660px;
+  bottom: 102px;
   opacity: 0.5;
 }
 
@@ -62,6 +63,6 @@ a:hover {
 
 footer {
   position: relative;
-  bottom: 600px;
-  left: 50px;
+  bottom: 40px;
+  left: 860px;
 }

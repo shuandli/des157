@@ -2,6 +2,7 @@ body {
   background: black;
   align-items: center;
   font-family: avenir;
+  position: absolute;
 }
 
 #menu {
@@ -29,7 +30,7 @@ ul {
   opacity: 0;
   position: absolute;
   left: 520px;
-  bottom: 680px;
+  bottom: 690px;
   width: 300px;
   font-family: avenir;
   font-weight: lighter;
@@ -78,7 +79,7 @@ ul {
 
 #containers {
   position: absolute;
-  right: 220px;
+  right: 155px;
   bottom: 800px;
   opacity: .5;
 }
@@ -86,7 +87,7 @@ ul {
 #containersInfo {
   opacity: 0;
   position: absolute;
-  right: 70px;
+  right: 30px;
   bottom: 560px;
   width: 280px;
   font-family: avenir;
@@ -99,14 +100,14 @@ ul {
 #bottles {
   position: absolute;
   bottom: 575px;
-  right: 395px;
+  right: 330px;
   opacity: .5;
 }
 
 #bottlesInfo {
   opacity: 0;
   position: absolute;
-  right: 150px;
+  right: 100px;
   bottom: 250px;
   width: 300px;
   font-family: avenir;

@@ -41,4 +41,23 @@ document.addEventListener('DOMContentLoaded', function() {
     foodClose.addEventListener('click', function() {
         foodInfo.style.opacity = 0;
     });
+
+    //food hover event listener
+    chair.addEventListener('mouseover', function() {
+        chair.style.opacity = 1;
+        chair.src = 'images/theChair.png';
+    });
+    //food mouseout event listener
+    chair.addEventListener('mouseout', function() {
+        chair.style.opacity = .5;
+        chair.src = 'images/theChair.png';
+    });
+    //food click
+    chair.addEventListener('click', function() {
+        chairInfo.style.opacity = 1;
+    });
+    //close info
+    chairClose.addEventListener('click', function() {
+        chairInfo.style.opacity = 0;
+    });
 });

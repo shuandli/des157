@@ -38,17 +38,17 @@ ul {
 }
 
 #heater {
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  bottom: 215px;
   left: 140px;
   opacity: .25;
 }
 
 #heaterInfo {
   opacity: 0;
-  position: absolute;
-  right: 520px;
-  bottom: 20px;
+  position: relative;
+  left: 360px;
+  bottom: 330px;
   width: 400px;
   font-family: avenir;
   font-weight: lighter;
@@ -58,17 +58,17 @@ ul {
 }
 
 #lamp {
-  position: absolute;
-  bottom: 630px;
-  right: 425px;
+  position: relative;
+  bottom: 1080px;
+  left: 760px;
   opacity: .5;
 }
 
 #lampInfo {
   opacity: 0;
-  position: absolute;
-  right: 250px;
-  bottom: 165px;
+  position: relative;
+  left: 600px;
+  bottom: 945px;
   width: 400px;
   font-family: avenir;
   font-weight: lighter;
@@ -78,17 +78,17 @@ ul {
 }
 
 #window {
-  position: absolute;
-  bottom: 695px;
-  right: 65px;
+  position: relative;
+  bottom: 1695px;
+  left: 950px;
   opacity: .5;
 }
 
 #windowInfo {
   opacity: 0;
-  position: absolute;
-  right: 120px;
-  bottom: 510px;
+  position: relative;
+  left: 900px;
+  bottom: 1700px;
   width: 250px;
   font-family: avenir;
   font-weight: lighter;
@@ -118,6 +118,6 @@ a:hover {
 
 footer {
   position: relative;
-  bottom: 36px;
+  bottom: 1230px;
   left: 870px;
 }

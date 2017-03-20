@@ -65,6 +65,25 @@ document.addEventListener('DOMContentLoaded', function() {
         heaterInfo.style.opacity = 0;
     });
 
+        //lamp hover event listener
+        lamp.addEventListener('mouseover', function() {
+            lamp.style.opacity = 1;
+            lamp.src = 'images/theLamp.png';
+        });
+        //lamp mouseout event listener
+        lamp.addEventListener('mouseout', function() {
+            lamp.style.opacity = .5;
+            lamp.src = 'images/theLamp.png';
+        });
+        //lamp click
+        lamp.addEventListener('click', function() {
+            lampInfo.style.opacity = 1;
+        });
+        //close info
+        lampClose.addEventListener('click', function() {
+            lampInfo.style.opacity = 0;
+        });
+
     //window hover event listener
     window.addEventListener('mouseover', function() {
         window.style.opacity = 1;
@@ -82,24 +101,5 @@ document.addEventListener('DOMContentLoaded', function() {
     //window info
     windowClose.addEventListener('click', function() {
         windowInfo.style.opacity = 0;
-    });
-
-    //lamp hover event listener
-    lamp.addEventListener('mouseover', function() {
-        lamp.style.opacity = 1;
-        lamp.src = 'images/theLamp.png';
-    });
-    //lamp mouseout event listener
-    lamp.addEventListener('mouseout', function() {
-        lamp.style.opacity = .5;
-        lamp.src = 'images/theLamp.png';
-    });
-    //lamp click
-    lamp.addEventListener('click', function() {
-        lampInfo.style.opacity = 1;
-    });
-    //close info
-    lampClose.addEventListener('click', function() {
-        lampInfo.style.opacity = 0;
     });
 });
